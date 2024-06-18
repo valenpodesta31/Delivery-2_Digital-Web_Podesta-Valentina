@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--link to bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<!--links js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!--link from ligthbox gallery-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+
+<!--link form our css-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Photography & Territory</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">F&T
+            <img src="Images/Camera icon.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"> <!--brand image-->
+            </a> <!--close the link-->
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myMenu" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="myMenu">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+              </li> <!--each link will have this li class cointainer-->
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/fotografiayterritorio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.fotografiayterritorio.com/">More</a>
+              </li>
+            
+            </ul>
+          </div> <!--inner part of the navbar -->
+        </div>
+      </nav>
+
+    <header>
+
+        <div class="container-fluid">
+
+            <div id="myCarousel" class="carousel slide carousel-fade">
+           
+                <div class="carousel-indicators">
+                   <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" ></button>
+                   <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" ></button>
+                </div> <!--if you don t like these indicators you can take this out-->
+           
+           
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="Images/Panorama 01.JPG" class="d-block w-100" alt="fotografía 1">
+           
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="small">Panorama on Buenos Aires</h5>
+                        </div>
+                    </div> <!--this must be created for each slide of the slider -->
+
+                    <div class="carousel-item">
+                        <img src="Images/Panorama 04.JPG" class="d-block w-100" alt="fotografía 2">
+
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="small">Panorama on Madrid</h5>
+                        </div>
+                    </div>
+
+                </div> <!--here is where I have the  content of my carousel -->
+
+                <!--these following containers are the next/prev controls-->
+               <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" ></span>
+                    <span class="visually-hidden">Previous</span>
+               </button>
+
+               <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+               </button>
+
+            </div>  <!--closes the main container from the carousel-->
+           
+        </div> <!--container so it looks centered and better in our html-->
+           
+    </header>
+
+    <main>
+
+        <div class="container p-5">
+
+            <h1>Photography & Territory</h1>
+
+            <p>Series of pictures that analyse urban situations</p>
+
+
+            <div class="row p-5">
+
+                <div class="text-center col-md-3 col-lg">
+                    <h2>Take the pictures</h2>
+                    <p class="text-secondary">Take a walk around the city, explore your surroundings. Analyse from a new perspective the elements that compone it.</p>
+                </div>
+
+                <div class=" text-center col-md-3 col-lg">
+                    <h2>Elaborate your series</h2>
+                    <p class="text-secondary">Organize the pictures into series of the same element, creating a new picture made up of up to 25 smaller pictures.</p>
+                </div>
+
+                <div class="text-center col-md-3 col-lg">
+                    <h2>Edit using Ph</h2>
+                    <p class="text-secondary">Learn hoy to edit your pictures with Camera Raw in photoshop in order to get the result you want.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <h1 class="text-center">View The Projects</h1>
+            <p class="text-center">Students where assigned with 3 elements, which they had to photograph during the semester. Check out their produced series here!</p>
+
+            <div class="row justify-content-center p-5"> <!--can I add more images to the gallery without them being shown on the main page?-->
+                <div class="col-md-5 col-lg">
+                    <a href="Images/271_CALLES_SERIES.jpg" data-lightbox="gallery" data-title="Streets">
+                    <img class="img-fluid rounded img-thumbnail" src="Images/271_CALLES_SERIES.jpg" alt="Series on Streets">
+                    </a>
+                </div>
+
+                <div class="col-md-5 col-lg">
+                    <a href="Images/271_INGRESOS_SERIES.jpg" data-lightbox="gallery" data-title="Entrances">
+                    <img class="img-fluid rounded img-thumbnail" src="Images/271_INGRESOS_SERIES.jpg" alt="Series on Entrances">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+<footer class="p-5 bg-secondary">
+    <button type="button" class="btn btn-dark text-uppercase" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Enrol</button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Enrol to the next course</h1>
+
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+        </div>
+
+        <div class="modal-body">
+            <form action="code.php" method="post" class="needs-validation" novalidate>
+                <label class="form-label" for="userName">Name and Surname
+                </label>
+
+                <input class="form-control" type="text" required placeholder="John Doe" id="userName" pattern="[a-zA-Z0-9]+">
+    
+                <div>
+                    <label class="form-label" for="userEmail">Email</label>
+                    <input class="form-control" type="email" required placeholder="info@mymail.com" id="userEmail">
+        
+                    <div class="valid-feedback">The email is ok</div>
+                    <div class="invalid-feedback">The email is wrong. Please check the format</div>
+                </div>
+        
+                <label class="form-label" for="comments">Why are you interested?</label>
+
+                <textarea class="form-control" id="comment"></textarea>
+        
+                <label class="form-label" for="countries">Where are you from?</label>
+                <select class="form-select" id="countries"  required>
+                    <option value="">Select Option</option>
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Chile">Chile</option>
+                </select>
+        
+                <label class="form-label" for="datalist">Where did you hear from us?</label>
+                <input class="form-control" list="myList" id="list" placeholder="Pick an option">
+        
+                <datalist id="myList">
+                    <option value="Instagram">
+                    <option value="Internet">
+                    <option value="From a friend">
+                    <option value="At DiTella">
+                </datalist>
+        
+                <button class="mt-5 btn btn-info">Send</button>
+            </form>
+        </div>
+        
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+        </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
+
+<script>
+    lightbox.option({
+     
+      'wrapAround': true,
+      'albumLabel': "Image %1 of %2"
+    })
+</script>
+    
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+    
+</body>
+</html>
